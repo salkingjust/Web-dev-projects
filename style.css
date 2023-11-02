@@ -1,0 +1,69 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#main-nav {
+    background-color: transparent;
+}
+.nav-link:hover{
+    background-color: rgb(39, 38, 38);
+    border-radius: 45%;
+}
+
+section{
+    height: 100vh;
+}
+
+.custom-col {
+    margin-top: 25%;
+}
+i {
+    color: black;
+}
+.card {
+    transition: all 0.3s;
+}
+.card:hover {
+    transform: scale(1.2);
+
+}
+.spacing{
+    margin-top:10% ;
+}
+.card .icon {
+    font-size: 48px;
+
+}
+.block{
+    height: .2rem;
+    width: 6rem;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    opacity: 0.5 ;
+}
+
+    
+    .marquee-content {
+      display: flex;
+      animation: scrolling 10s linear infinite;
+    }
+    
+    .marquee-item {
+      flex: 0 0 16vw;
+      margin: 0 1vw;
+
+    }
+    
+    .marquee-item img {
+      display: block;
+      width: 100%;
+    }
+    
+    @keyframes scrolling {
+      0% { transform: translateX(0); }
+      100% { transform: translatex(-144vw); }
+    }
+
+    
